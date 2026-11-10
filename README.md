@@ -149,6 +149,15 @@ docs/images/          README images (real screenshots from the app)
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md). Branches: `feat/*`, `fix/*`, `docs/*`, `chore/*`, merged into `main` through pull requests with passing CI. Report security issues as described in [SECURITY.md](SECURITY.md).
 
+## Urbiva repositories
+
+| Repository | Purpose |
+| --- | --- |
+| **urbiva-app** | Application: Go, Vision, Urban and Impact |
+| [`urbiva-ai`](https://github.com/urbiva/urbiva-ai) | Research setup for UVA-Net S10, a planned local vision model |
+| [`urbiva-brand`](https://github.com/urbiva/urbiva-brand) | Logo package, tokens, guidelines and GitHub brand kit |
+| [`urbiva-docs`](https://github.com/urbiva/urbiva-docs) | Product specifications, architecture, decisions and roadmap |
+
 ## License
 
-Private repository. All rights reserved by Urbiva. No license is granted for use, copying or distribution.
+Private repository. All rights reserved by Urbiva. No license is granted for use, copying or distribution. See [LICENSE](LICENSE).
