@@ -160,4 +160,6 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md). Branches: `feat/*`, `fix/*`, `docs/*`, 
 
 ## License
 
-Private repository. All rights reserved by Urbiva. No license is granted for use, copying or distribution. See [LICENSE](LICENSE).
+Copyright (c) 2026 the members of the team "Maximilian". All rights reserved.
+
+This repository is public so that it can be read. It is **not open source**. Use, copying, modification, distribution and training of AI systems on it are not permitted except as stated in the [Urbiva Proprietary License 1.0](LICENSE). Third-party components are listed in [NOTICE](NOTICE).

@@ -1,0 +1,35 @@
+NOTICE
+
+Urbiva
+Copyright (c) 2026 the members of the team "Maximilian". All rights reserved.
+Licensed under the Urbiva Proprietary License 1.0. See LICENSE.
+
+This file lists third-party components included in or used by this
+repository. Each component is governed by its own license, which prevails
+for that component (LICENSE, Section 8).
+
+Bundled files
+-------------
+Manrope (src/app/fonts/Manrope-VariableFont_wght.ttf)
+  Copyright The Manrope Project Authors. SIL Open Font License 1.1.
+  License text: src/app/fonts/OFL-Manrope.txt
+
+IBM Plex Mono (src/app/fonts/IBMPlexMono-*.ttf)
+  Copyright IBM Corp. SIL Open Font License 1.1.
+  License text: src/app/fonts/OFL-IBMPlexMono.txt
+
+Fetched at build time
+---------------------
+Inter, loaded through next/font/google
+  Copyright The Inter Project Authors. SIL Open Font License 1.1.
+
+npm dependencies (not bundled in this repository; installed by npm)
+-------------------------------------------------------------------
+next, react, react-dom, tailwindcss, @tailwindcss/postcss, typescript, tsx,
+@types/node, @types/react, @types/react-dom
+  Each package is distributed under the license stated in its package.json.
+
+External service (optional, configured by the operator)
+-------------------------------------------------------
+Anthropic API, used by /api/vision only when ANTHROPIC_API_KEY is set.
+  Use is subject to the provider's terms. No API key is included here.
