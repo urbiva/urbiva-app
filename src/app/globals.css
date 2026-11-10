@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+/*
+ * Urbiva design tokens, mirrored from the Figma file "Urbiva | Product Design System v1"
+ * (Primitives + Theme/Dark). Brand hex values are the approved palette; violet/stone
+ * ramps and status colours are UX utility colours, not brand colours.
+ */
+@theme {
+  /* brand (approved) */
+  --color-midnight: #241b42;
+  --color-lime: #d5ff66;
+  --color-lime-hover: #e2ff8f;
+  --color-porcelain: #f7f5f0;
+  --color-iris: #7966ec;
+  --color-lavender: #b9b1ce;
+  --color-secondary-light: #655a7d;
+
+  /* semantic, dark theme (hackathon default) */
+  --color-canvas: #241b42;
+  --color-sunken: #1d1538;
+  --color-surface: #2b2250;
+  --color-raised: #342a5e;
+  --color-overlay: #17102e;
+  --color-fg: #f7f5f0;
+  --color-fg-2: #b9b1ce;
+  --color-fg-3: #a39ac4;
+  --color-link: #a79bf5;
+  --color-line-subtle: #342a5e;
+  --color-line: #43386f;
+  --color-line-strong: #a39ac4;
+  --color-disabled-bg: #342a5e;
+  --color-disabled-fg: #574c86;
+
+  /* status (UX utility) */
+  --color-success: #6ee0a6;
+  --color-warning: #ffc861;
+  --color-danger: #ff8a7a;
+  --color-info: #a79bf5;
+
+  /* map */
+  --color-map-land: #1d1538;
+  --color-map-block: #2b2250;
+  --color-map-street: #43386f;
+  --color-map-water: #2a2a66;
+  --color-map-park: #24344a;
+
+  --font-sans: var(--font-inter, "Inter"), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-manrope, "Manrope"), var(--font-inter, "Inter"), ui-sans-serif, sans-serif;
+  --font-mono: var(--font-plex-mono, "IBM Plex Mono"), ui-monospace, monospace;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+}
+
+@layer base {
+  html { color-scheme: dark; scroll-padding-bottom: 96px; }
+  body { @apply bg-canvas text-fg font-sans antialiased; }
+  :focus-visible { outline: 2px solid var(--color-lime); outline-offset: 2px; }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .eyebrow { @apply font-mono text-[11px] leading-[14px] font-semibold uppercase tracking-[0.08em]; }
+  .h1 { @apply font-display text-[28px] leading-[34px] font-bold tracking-[-0.015em]; }
+  .h2 { @apply font-display text-[22px] leading-[28px] font-bold tracking-[-0.01em]; }
+  .h3 { @apply font-display text-[18px] leading-[24px] font-semibold; }
+  .data { @apply font-mono text-[13px] leading-[18px] font-medium; }
+}

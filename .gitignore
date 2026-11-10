@@ -1,0 +1,17 @@
+node_modules/
+.next/
+out/
+.env
+.env.local
+*.tsbuildinfo
+next-env.d.ts
+sandbox-preview/dist/
+sandbox-preview/screens/
+.env.*
+!.env.example
+.vercel/
+coverage/
+playwright-report/
+test-results/
+*.log
+.DS_Store
